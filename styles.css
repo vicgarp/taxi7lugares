@@ -76,17 +76,18 @@ footer{
 }
 
 #topo{
+    position: relative;
     background-image: url(fotos/taxi7.jpg);
     display: block;
     margin-top: 30px;
     background-size: cover;
-    max-width: 100%;
 }
 
 #stripes{
     background-image: url(fotos/taxi-stripe.jpg);
     height: 100px;
     width: 100%;
+    left: 0px;
     max-width: 100%;
 }
 
@@ -188,5 +189,10 @@ footer{
     #paragrafo{
         text-align:left;
         text-justify: inter-word;
+    }
+
+    #stripes{
+        left:0px;
+        width: 100vp;
     }
 }
